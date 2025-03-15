@@ -50,6 +50,6 @@ async def help_msg(_: CypherClient, msg: Message):
   ⤷ Send /acc command and I'll send you your account details 🫣
 
 
-**Made with ❤Love by @zeedtek 👀**
+**Made with Love by @zeedtek 👀**
       """
     )
