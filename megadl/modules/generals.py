@@ -15,13 +15,13 @@ from megadl import CypherClient
 async def start_msg(_: CypherClient, msg: Message):
     await msg.reply_text(
         f"""
-Hi `{msg.from_user.first_name}` 👋, I'm [Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot)!
+Hi `{msg.from_user.first_name}` 👋, I'm [Mega.nz-Bot](t.me/zeedtek) from @zeedtek 👀!
 
 I can help you download, upload files or folders from telegram.
 Not sure what to do? Check /help for more info 😇
 
 
-**Made with ❤️ by @NexaBotsUpdates**
+**Made with love by @zeedtek 👀 **
     """,
         disable_web_page_preview=True,
     )
@@ -50,6 +50,6 @@ async def help_msg(_: CypherClient, msg: Message):
   ⤷ Send /acc command and I'll send you your account details 🫣
 
 
-**Made with ❤️ by @NexaBotsUpdates**
+**Made with ❤Love by @zeedtek 👀**
       """
     )
